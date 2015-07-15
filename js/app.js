@@ -16,3 +16,14 @@ myApp.config(function($routeProvider) {
         })
 })
 
+myApp.controller('AboutController', function($scope){
+    $scope.info = "Some info"
+})
+
+myApp.controller('LandingController', function($scope){
+    $scope.info = "Some info"
+})
+
+myApp.controller('ContentController', function($scope){
+    $scope.info = "Some info"
+})
