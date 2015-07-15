@@ -16,14 +16,17 @@ myApp.config(function($routeProvider) {
         })
 })
 
-myApp.controller('AboutController', function($scope){
-    $scope.info = "Some info"
-})
-
+// Landing page controller
 myApp.controller('LandingController', function($scope){
-    $scope.info = "Some info"
-})
+        $scope.number = 10
+    })
 
+// About page controller
+myApp.controller('AboutController', function($scope){
+        $scope.about = "Here's some information about this page."
+    })
+
+// Content controller
 myApp.controller('ContentController', function($scope){
-    $scope.info = "Some info"
-})
+        $scope.url = "http://conference.unavsa.org/wp-content/uploads/2015/06/SEA-pic.jpg"
+    })
